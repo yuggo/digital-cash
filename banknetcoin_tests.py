@@ -1,7 +1,7 @@
 import uuid, pytest
 from ecdsa import SigningKey, VerifyingKey, SECP256k1
 from ecdsa.keys import BadSignatureError
-from bankutxocoin import TxIn, TxOut, Tx, Bank
+from mybanknetcoin import TxIn, TxOut, Tx, Bank
 # from mybanknetcoin import TxIn, TxOut, Tx, Bank
 
 # The usual suspects
